@@ -1,0 +1,111 @@
+Script started on 2024-05-30 17:51:51+0000
+khy@2021340029:~/shared_folder/CPU$ ./run.sh
+In file included from [01m[Kqueue.h:1:0[m[K,
+                 from [01m[Kscheduler.h:2[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kprocess.h:15:3:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[KProcess[m[K’
+ } [01;31m[KProcess[m[K;
+   [01;31m[K^~~~~~~[m[K
+In file included from [01m[Kmain.c:1:0[m[K:
+[01m[Kprocess.h:15:3:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KProcess[m[K’ was here
+ } [01;36m[KProcess[m[K;
+   [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kqueue.h:1:0[m[K,
+                 from [01m[Kscheduler.h:2[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kprocess.h:17:10:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kcreate_process[m[K’
+ Process* [01;31m[Kcreate_process[m[K(int pid, int burst_time, int io_burst, int arrival_time, int priority);
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.c:1:0[m[K:
+[01m[Kprocess.h:17:10:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kcreate_process[m[K’ was here
+ Process* [01;36m[Kcreate_process[m[K(int pid, int burst_time, int io_burst, int arrival_time, int priority);
+          [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[Kqueue.h:1:0[m[K,
+                 from [01m[Kmain.c:3[m[K:
+[01m[Kprocess.h:15:3:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[KProcess[m[K’
+ } [01;31m[KProcess[m[K;
+   [01;31m[K^~~~~~~[m[K
+In file included from [01m[Kqueue.h:1:0[m[K,
+                 from [01m[Kscheduler.h:2[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kprocess.h:15:3:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KProcess[m[K’ was here
+ } [01;36m[KProcess[m[K;
+   [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kqueue.h:1:0[m[K,
+                 from [01m[Kmain.c:3[m[K:
+[01m[Kprocess.h:17:10:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kcreate_process[m[K’
+ Process* [01;31m[Kcreate_process[m[K(int pid, int burst_time, int io_burst, int arrival_time, int priority);
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.c:1:0[m[K:
+[01m[Kprocess.h:17:10:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kcreate_process[m[K’ was here
+ Process* [01;36m[Kcreate_process[m[K(int pid, int burst_time, int io_burst, int arrival_time, int priority);
+          [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.c:3:0[m[K:
+[01m[Kqueue.h:6:3:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[KQueue[m[K’
+ } [01;31m[KQueue[m[K;
+   [01;31m[K^~~~~[m[K
+In file included from [01m[Kscheduler.h:2:0[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kqueue.h:6:3:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KQueue[m[K’ was here
+ } [01;36m[KQueue[m[K;
+   [01;36m[K^~~~~[m[K
+In file included from [01m[Kmain.c:3:0[m[K:
+[01m[Kqueue.h:8:6:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[KinitializeQueue[m[K’
+ void [01;31m[KinitializeQueue[m[K(Queue *q);
+      [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kscheduler.h:2:0[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kqueue.h:8:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KinitializeQueue[m[K’ was here
+ void [01;36m[KinitializeQueue[m[K(Queue *q);
+      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.c:3:0[m[K:
+[01m[Kqueue.h:9:6:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kenqueue[m[K’
+ void [01;31m[Kenqueue[m[K(Queue *q, Process *p);
+      [01;31m[K^~~~~~~[m[K
+In file included from [01m[Kscheduler.h:2:0[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kqueue.h:9:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kenqueue[m[K’ was here
+ void [01;36m[Kenqueue[m[K(Queue *q, Process *p);
+      [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kmain.c:3:0[m[K:
+[01m[Kqueue.h:10:10:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kdequeue[m[K’
+ Process* [01;31m[Kdequeue[m[K(Queue *q);
+          [01;31m[K^~~~~~~[m[K
+In file included from [01m[Kscheduler.h:2:0[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kqueue.h:10:10:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kdequeue[m[K’ was here
+ Process* [01;36m[Kdequeue[m[K(Queue *q);
+          [01;36m[K^~~~~~~[m[K
+In file included from [01m[Kmain.c:3:0[m[K:
+[01m[Kqueue.h:11:6:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[KprintQueue[m[K’
+ void [01;31m[KprintQueue[m[K(Queue *q);
+      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[Kscheduler.h:2:0[m[K,
+                 from [01m[Kmain.c:2[m[K:
+[01m[Kqueue.h:11:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KprintQueue[m[K’ was here
+ void [01;36m[KprintQueue[m[K(Queue *q);
+      [01;36m[K^~~~~~~~~~[m[K
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:42:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprint_metrics[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kprint_metrics[m[K();
+     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[Kprocess.c:[m[K In function ‘[01m[Kcreate_process[m[K’:
+[01m[Kprocess.c:7:24:[m[K [01;35m[Kwarning: [m[Kreturn makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  if (p == NULL) return [01;35m[K-[m[K1;
+                        [01;35m[K^[m[K
+[01m[Kqueue.c:[m[K In function ‘[01m[Kenqueue[m[K’:
+[01m[Kqueue.c:14:23:[m[K [01;35m[Kwarning: [m[Kassignment from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         q->rear->next [01;35m[K=[m[K p;
+                       [01;35m[K^[m[K
+[01m[Kqueue.c:[m[K In function ‘[01m[Kdequeue[m[K’:
+[01m[Kqueue.c:23:14:[m[K [01;35m[Kwarning: [m[Kassignment from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     q->front [01;35m[K=[m[K q->front->next;
+              [01;35m[K^[m[K
+[01m[Kqueue.c:[m[K In function ‘[01m[KprintQueue[m[K’:
+[01m[Kqueue.c:38:14:[m[K [01;35m[Kwarning: [m[Kassignment from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         temp [01;35m[K=[m[K temp->next;
+              [01;35m[K^[m[K
+khy@2021340029:~/shared_folder/CPU$ exit
+exit
+
+Script done on 2024-05-30 17:51:59+0000
